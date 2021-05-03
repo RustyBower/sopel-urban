@@ -8,4 +8,4 @@ from .urban import display, get_definition, urban
 
 __author__ = 'Rusty Bower'
 __email__ = 'rusty@rustybower.com'
-__version__ = '1.2.1'
+__version__ = '1.2.2'
