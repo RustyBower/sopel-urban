@@ -4,6 +4,13 @@
 
 # sopel-urban
 
+**Important: This package is no longer updated. Please install sopel-urban for use with Sopel 8.0 and higher.**
+
+```
+pip uninstall sopel-modules.urban
+pip install sopel-urban
+```
+
 sopel-urban is an Urban Dictionary module for Sopel
 
 ## Usage
