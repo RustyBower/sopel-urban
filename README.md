@@ -1,13 +1,39 @@
-[![Build Status](https://travis-ci.org/RustyBower/sopel-urban.svg?branch=master)](https://travis-ci.org/RustyBower/sopel-urban)
-[![Maintainability](https://api.codeclimate.com/v1/badges/8dec5d4f7634eead46dd/maintainability)](https://codeclimate.com/github/RustyBower/sopel-urban/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/8dec5d4f7634eead46dd/test_coverage)](https://codeclimate.com/github/RustyBower/sopel-urban/test_coverage)
-
 # sopel-urban
 
-sopel-urban is an Urban Dictionary module for Sopel
+A Sopel IRC bot plugin for Urban Dictionary lookups.
+
+> **Note:** This package was previously published as `sopel-modules.urban`.
+> Please update your dependencies to use `sopel-urban` instead.
+
+## Installation
+
+```bash
+pip install sopel-urban
+```
 
 ## Usage
+
 ```
-.ud fronking
-.urban fronking
+.urban <term>      - Look up a term on Urban Dictionary
+.urban <term>/2    - Get the 2nd definition (1-10)
+.ud <term>         - Alias for .urban
 ```
+
+### Examples
+
+```
+.urban yeet
+[urban] yeet - To discard an item at high velocity
+
+.urban fronking/2
+[urban] fronking - (2nd definition)
+```
+
+## Requirements
+
+- Sopel 8.0+
+- Python 3.8+
+
+## License
+
+MIT License
